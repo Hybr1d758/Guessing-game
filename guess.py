@@ -5,6 +5,7 @@ number = random.randint(1, 100)
 guess = 0
 guess_count = 0
 
+print("this is a guess game be sure to enter number that comes to mind")
 while guess != number:
     guess = int(input('Enter any number:'))
     if guess < number:
