@@ -2,9 +2,12 @@
 import random
 number = random.randint(1, 100)
 
+print("What is your name?")
+name = input()
+
 guess_count = 7
 guess = 0
-print("this is a guess game be sure to enter number that comes to mind")
+print(name + " this is a guess game be sure to enter number that comes to mind.")
 while guess != number:
     guess = int(input('Enter any number:'))
     if guess < number:
